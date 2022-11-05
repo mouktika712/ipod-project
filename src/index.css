@@ -8,6 +8,7 @@
 .app {
   height: 90vh;
   max-height: 700px;
+  min-height: 750px;
   min-width: 400px;
   max-width: 400px;
   margin: auto;

@@ -77,9 +77,6 @@ class App extends React.Component {
 
     // "selected" class is added as we navigate the song list on AllSongs Page
 
-    // this class will be removed from the previously selected song and added to the currently selected song
-    document.getElementById(songSelected+"song").classList.remove("song-selected");
-
     //But if we press this button while the song is being played(isPaused is false)...the song will pause and the next song will be selected
     if(isPaused === false) {
       this.setState({isPaused: true})
@@ -89,7 +86,7 @@ class App extends React.Component {
 
     // this button should only work on the AllSongs Page
     if(currentPage === "Music" && subPage === "AllSongs") {
-
+      document.getElementById(songSelected+"song").classList.remove("song-selected");
       // if the song selected reaches bottom it should start from 0th index...otherwise it should be incremented
       if(songSelected === allSongs.length - 1) {songSelected = 0;}
       else{songSelected += 1;}
@@ -120,12 +117,11 @@ class App extends React.Component {
       document.getElementById(songSelected).pause();
       document.getElementById(songSelected+"song").classList.remove("currently-playing");
     }
-
-    // removing the "selected" class from the previous song
-    document.getElementById(songSelected+"song").classList.remove("song-selected");
+    
 
     // updating the songSelected just like we do for forward button
     if(currentPage === "Music" && subPage === "AllSongs") {
+      document.getElementById(songSelected+"song").classList.remove("song-selected");
       if(songSelected === 0) {songSelected = allSongs.length - 1;}
       else{songSelected -= 1;}
       document.getElementById(songSelected+"song").classList.add("song-selected");
