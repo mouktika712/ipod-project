@@ -1,0 +1,235 @@
+#note {
+  margin-left: 600px;
+  margin-top: 20px;
+  color: blue;
+}
+
+/* styling the app component */
+.app {
+  height: 90vh;
+  max-height: 700px;
+  min-width: 400px;
+  max-width: 400px;
+  margin: auto;
+  background-color: #bbbbbb;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* styling the buttons */
+.buttons-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 50%;
+  width: 90%;
+  margin: auto;
+}
+
+/* styling the circular button  */
+#button-circle {
+  height: 60%;
+  width: 60%;
+  border: 3px solid white;
+  background-color: #FFA6C9;
+  border-radius: 45%;
+  margin-top: 16%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 50px;
+  position: relative;
+}
+
+.buttons img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+/* on hover the buttons will be bigger */
+.buttons img:hover{
+  transform: scale(1.3);
+}
+
+/* placing the backward and forward buttons */
+#left-right-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* this is the middle button used to select menu items */
+#select-button {
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  height: 90px;
+  width: 90px;
+  border-radius: 40%;
+  background-color: #bbbbbb;
+  border: 3px solid #15202b;
+  cursor: pointer;
+}
+
+/* color of the select button will change on hovering over it */
+#select-button:hover {
+  background-color: white;
+}
+
+/* to show the menubar */
+.show {
+  transition-property: width height;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+/* to hide the menubar */
+.hide {
+  transform: translateX(-120%);
+  transition-property: width height;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+/* menubar/list item container styling */
+#list-item-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: black;
+  background-color: #FFA6C9;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* individual items in the menubar */
+.list-item {
+  font-size: large;
+  letter-spacing: 1px;
+  height: 15%;
+  width: 150px;
+  padding: 17.7px;
+}
+
+/* this class will be added to the menubar list items to indicate the the page selected */
+.selected {
+  background-color: white;
+}
+
+/* ************************************************************************* */
+/* styling the screen of ipod */
+.screen {
+  position: relative;
+  height: 40%;
+  width: 90%;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* adding image to the background of menuPage */
+.basic-screen {
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2015/08/11/abstract-music.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* this class is added to each screen: album, artists, games, etc to set the size*/
+.size {
+  height: 100%; 
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* styling the image for each screen: albums, games, etc */
+.size img {
+  height: inherit;
+  width: inherit;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+
+/* styling the heading on music page */
+#music h1 {
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  color: rgb(255, 209, 58);
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-family: cursive;
+  
+}
+
+/* AllSongs page styling the inner divs */
+#allsongs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+}
+
+/* setting the display of audio bar to none */
+.song audio {
+  display: none;
+}
+
+
+/* styling the song */
+.song {
+  height: 25%;
+  width: 100%;
+  background-color: #FEFF9E;
+  border: 1px solid lightgrey;
+}
+
+/* styling the song name on AllSongs Page */
+.song-name {
+  padding: 25px;
+  font-family: cursive;
+  font-size: large;
+}
+
+/* this will indicate the current song that you have selected through navigating */
+.song-selected {
+  background-color: #FF713C;
+  color: white;
+}
+
+/* this class is added to the song which is currently playing */
+.currently-playing {
+  animation: changingColor 1s ease-in-out 0.1s infinite alternate;
+}
+
+
+/* animation for the currently playing song */
+@keyframes changingColor {
+  from {
+    background-color: #FEFF9E;
+  }
+
+  to {
+    background-color: #FF713C;
+  }
+}
+
+
