@@ -267,10 +267,6 @@ class App extends React.Component {
           />
 
         </div>
-        <div id='note'>
-            I REQUEST YOU TO READ THE "README.md" fILE FIRST. <br/>
-            PLEASE MAKE SURE YOU ARE CONNECTED TO THE INTERNET.
-        </div>
       </>
     );
   }
