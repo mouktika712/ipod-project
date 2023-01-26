@@ -1,5 +1,7 @@
 IPOD PROJECT:
 
+https://mouktika712.github.io/ipod-project/
+
 NOTE: Please make sure you are connected to the internet, all the images in the project are fetched from net.
 
 1. Rotation Gesture/ Rotation Detection: For detecting the rotation gesture, ZingTouch (a JavaScript Gesture detection library) is used.
