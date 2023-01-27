@@ -1,14 +1,15 @@
 #note {
-  margin-left: 600px;
+  margin-left: 30vw;
   margin-top: 20px;
   color: blue;
+  width: 250px;
 }
 
 /* styling the app component */
 .app {
   height: 90vh;
   max-height: 700px;
-  min-height: 750px;
+  min-height: 725px;
   min-width: 400px;
   max-width: 400px;
   margin: auto;
