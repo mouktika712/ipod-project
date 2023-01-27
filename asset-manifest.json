@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ipod-project/src/static/css/main.820a4230.css",
-    "main.js": "/ipod-project/src/static/js/main.d4d5531e.js",
-    "static/media/one.mp3": "/ipod-project/src/static/media/one.1da6d0bea7bc9d206c5e.mp3",
-    "static/media/two.mp3": "/ipod-project/src/static/media/two.ce75982ee626c0374eea.mp3",
-    "static/media/three.mp3": "/ipod-project/src/static/media/three.183c4ad486a5a5a37289.mp3",
-    "static/media/four.mp3": "/ipod-project/src/static/media/four.16e6e88b9acd85c6fdcb.mp3",
-    "index.html": "/ipod-project/src/index.html",
-    "main.820a4230.css.map": "/ipod-project/src/static/css/main.820a4230.css.map",
-    "main.d4d5531e.js.map": "/ipod-project/src/static/js/main.d4d5531e.js.map"
+    "main.css": "/ipod-project/static/css/main.820a4230.css",
+    "main.js": "/ipod-project/static/js/main.c0ef1a20.js",
+    "static/media/one.mp3": "/ipod-project/static/media/one.1da6d0bea7bc9d206c5e.mp3",
+    "static/media/two.mp3": "/ipod-project/static/media/two.ce75982ee626c0374eea.mp3",
+    "static/media/three.mp3": "/ipod-project/static/media/three.183c4ad486a5a5a37289.mp3",
+    "static/media/four.mp3": "/ipod-project/static/media/four.16e6e88b9acd85c6fdcb.mp3",
+    "index.html": "/ipod-project/index.html",
+    "main.820a4230.css.map": "/ipod-project/static/css/main.820a4230.css.map",
+    "main.c0ef1a20.js.map": "/ipod-project/static/js/main.c0ef1a20.js.map"
   },
   "entrypoints": [
     "static/css/main.820a4230.css",
-    "static/js/main.d4d5531e.js"
+    "static/js/main.c0ef1a20.js"
   ]
 }
