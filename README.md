@@ -1,6 +1,6 @@
-IPOD PROJECT:
+## IPOD PROJECT:
 
-## https://mouktika712.github.io/ipod-project/
+Project link:  https://mouktika712.github.io/ipod-project/
 
 
 ## Description
