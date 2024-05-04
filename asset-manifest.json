@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ipod-project/static/css/main.820a4230.css",
-    "main.js": "/ipod-project/static/js/main.c0ef1a20.js",
+    "main.css": "/ipod-project/static/css/main.83b80620.css",
+    "main.js": "/ipod-project/static/js/main.60fc0071.js",
     "static/media/one.mp3": "/ipod-project/static/media/one.1da6d0bea7bc9d206c5e.mp3",
     "static/media/two.mp3": "/ipod-project/static/media/two.ce75982ee626c0374eea.mp3",
     "static/media/three.mp3": "/ipod-project/static/media/three.183c4ad486a5a5a37289.mp3",
     "static/media/four.mp3": "/ipod-project/static/media/four.16e6e88b9acd85c6fdcb.mp3",
     "index.html": "/ipod-project/index.html",
-    "main.820a4230.css.map": "/ipod-project/static/css/main.820a4230.css.map",
-    "main.c0ef1a20.js.map": "/ipod-project/static/js/main.c0ef1a20.js.map"
+    "main.83b80620.css.map": "/ipod-project/static/css/main.83b80620.css.map",
+    "main.60fc0071.js.map": "/ipod-project/static/js/main.60fc0071.js.map"
   },
   "entrypoints": [
-    "static/css/main.820a4230.css",
-    "static/js/main.c0ef1a20.js"
+    "static/css/main.83b80620.css",
+    "static/js/main.60fc0071.js"
   ]
 }
